@@ -55,18 +55,73 @@ if(something){
    do something else
 }*/
 
-const id = 99;
+const id = '100';
 
-if(id == 100){
+/* if(id == 100){
    console.log('Success!');
 } else {
    console.log('Nah, brah!');
 }
 
-// Not Equal TO
+// Not Equal to
 
 if(id != 100){
    console.log('Success!');
 } else {
    console.log('Nah, brah!');
 }
+
+// Equal to value and type
+
+if(id === 100){
+   console.log('Success!');
+} else {
+   console.log('Nah, brah!');
+} */
+
+// Test for undefined const
+
+// if (typeof id !== 'undefined'){
+//    console.log(`The ID is ${id}`);
+// } else {
+//    console.log('NO ID')
+// }
+
+// greater than or less than
+
+// if (id >= 100){
+//    console.log(`Cha Ching!`);
+// } else {
+//    console.log('Busted, Bruh!')
+// }
+
+const bestColor = 'green';
+
+// if(bestColor === 'blue'){
+//    console.log('Go Blue!')
+// } else if(bestColor === 'maize'){
+//    console.log('Maize Rage!')
+// } else {
+//    console.log('Sparty Sux!')
+// }
+
+// Logical operators
+
+const firstName = 'Jim';
+const age = '50';
+
+if(age < 50 && firstName === 'Steve'){
+   console.log(`Fifty is Nifty... sucks to be you ${firstName}.`)
+} else {
+   console.log('Steve\'s the BESTEST!')
+}
+
+if(age < 50 || firstName != 'Steve'){
+   console.log(`Fifty is Nifty... sucks to be you ${firstName}.`)
+} else {
+   console.log('Steve\'s the BESTEST!')
+}
+
+// TERNARY OPERATOR
+
+console.log(age == 50 ? 'Correct' : 'Incorrect');
