@@ -1,4 +1,4 @@
- // SWITCHES, BITCHES!
+ // SWITCHES, BITCHES! 2.17
  
  const color = 'yellow';
 
@@ -21,19 +21,30 @@
  switch(new Date().getDay()){
    case 0:
       day = 'Sunday';
-   break;
+      break;
    case 1:
       day = 'Monday';
-   break;
+      break;
    case 2:
       day = 'Tuesday';
-   break;
+      break;
    case 3:
       day = 'Wednesday';
-   break;
+      break;
    case 4:
       day = 'Thursday';
-   break;
+      break;
+   case 5:
+      day = 'Friday';
+      break;
+   case 6:
+      day = 'Saturday';
+      break;
  }
 
  console.log(`${day}`);
+
+
+ // FUNCTION DECLARATIONS & EXPRESSIONS 2.18
+
+ 
