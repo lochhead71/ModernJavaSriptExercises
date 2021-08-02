@@ -202,3 +202,33 @@ const cars = ['sedan', 'hatchback', 'coupe', 'station wagon', 'cross-over'];
 
 
 // console.log(val);
+
+// GLOBAL SCOPE
+
+var a = 1;
+let b = 2;
+const c = 3;
+
+// function test() {
+//    var a = 4;
+//    let b = 5;
+//    const c = 6;
+//    console.log('Functional Scope: ', a, b, c);
+// }
+
+// test();
+
+// if(true) {
+//    //Block Scope
+//    var a = 4;
+//    let b = 5;
+//    const c = 6;
+//    console.log('if (block) Scope: ', a, b, c);
+// }
+
+for(let a = 0; a < 10; a++) {
+   //Block Scope
+   console.log(`Loop: ${a}`);
+}
+
+console.log('Global Scope: ', a, b, c);
