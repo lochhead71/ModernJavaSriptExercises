@@ -162,13 +162,43 @@ const cars = ['sedan', 'hatchback', 'coupe', 'station wagon', 'cross-over'];
 
 //FOR IN LOOP
 
-const user = {
-   firstName: 'Jerry',
-   lastName: 'Garcia',
-   instrument: 'guitar',
-   status: 'God'
-}
+// const user = {
+//    firstName: 'Jerry',
+//    lastName: 'Garcia',
+//    instrument: 'guitar',
+//    status: 'God'
+// }
 
-for(let x in user){
-   console.log(`${x} : ${user[x]}`);
-}
+// for(let x in user){
+//    console.log(`${x} : ${user[x]}`);
+// }
+
+// WINDOW METHODS / OBJECTS / PROPERTIES
+
+// window.console.log('Yep, this is part of the Window object.');
+
+// alert('Hello World.');
+
+// const input = prompt();
+// alert(input);
+
+// if (confirm('Are you sure?')){
+//    console.log('You betcha!');
+// } else {
+//    console.log('Coward!');
+// }
+
+// let val;
+
+// val = window.outerWidth;
+// val = window.innerHeight;
+// val = window.scrollY;
+// val = window.location;
+
+// // window.location.href = 'http://lochhead.info';
+// // window.history.go(-1);
+
+// val = window.navigator;
+
+
+// console.log(val);
