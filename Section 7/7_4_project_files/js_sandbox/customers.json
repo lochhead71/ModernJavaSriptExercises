@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "company": "Acme",
+    "phone": "210-555-1234"
+  },
+  {
+    "id": 2,
+    "name": "Mary Buggin",
+    "company": "Widgets, Inc.",
+    "phone": "512-555-5678"
+  },
+  {
+    "id": 3,
+    "name": "Jack Flash",
+    "company": "Brudr",
+    "phone": "713-555-9876"
+  }
+]
