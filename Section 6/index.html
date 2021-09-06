@@ -8,8 +8,8 @@
    <style>
       .success, .error {
          color: white;
-         padding: 5 px;
-         margin: 5 px 0 15 px 0;
+         padding: 5px;
+         margin: 5px 0 15px 0;
       }
       .success {
          background-color: green;
@@ -23,7 +23,6 @@
 <body>  
    <div class="container">
       <h2>Add Book</h2>
-      <div class="five columns">
          <form id="book-form">
             <div>
                <label for="title">Title</label>
@@ -37,12 +36,10 @@
                <label for="isbn">ISBN#</label>
                <input type="text" id="isbn" class="u-full-width">
             </div>
+            <div>
+               <input class="button-primary" type="submit" value="Submit">
          </form>
-         <div>
-            <input class="button-primary u-full-width" type="submit" value="Submit">
-         </div>
       </div>
-      <div class="seven columns"></div>
    </div>
    <div class="container">
       <hr>
@@ -58,5 +55,6 @@
          <tbody id="book-list"></tbody>
       </table>
    </div>
+   <script src='appES6.js'></script>
 </body>
 </html>
