@@ -1,8 +1,9 @@
-document.getElementById('button1').addEventListener('click', console.log('res'));
+document.getElementById('button1').addEventListener('click', getText);
 
-// function getText() {
-//    fetch('test.txt')
-//       .then(function(res){
-//          console.log(res);
-//    });
-// }
+function getText() {
+   fetch('test.txt')
+   .then(function(res){
+      console.log(res);
+   });
+   console.log('Testing');
+}
